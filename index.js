@@ -1,3 +1,4 @@
+//declare variables
 let data = [
   {
     name: "Adam",
@@ -38,6 +39,7 @@ let data = [
 const container = document.getElementById("container");
 const button = document.getElementById("button");
 
+//sort function
 let mySort = (myVar) => {
   console.log(myVar)
   //clear container
@@ -81,7 +83,7 @@ let mySort = (myVar) => {
 
 mySort('age');
 
-
+//dropdown code
 function toggleClass(elem,className){
     if (elem.className.indexOf(className) !== -1){
       elem.className = elem.className.replace(className,'');
