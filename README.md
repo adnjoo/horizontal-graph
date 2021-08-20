@@ -1,1 +1,3 @@
-# code-test-novus
+# horizontal graph take home
+
+open index.html

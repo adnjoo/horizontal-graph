@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='styles.css' rel='stylesheet'>
+    <title>Horizontal bar graph</title>
+
+</head>
+
+<body>
+    <br>
+    <header>
+        <h2> Horizontal bar graph</h2>
+    </header>
+    <br>
+    <!-- main table/chart -->
+    <table id='container'>
+    </table>
+    <!-- button container -->
+    <div id='container' class='buttoncontainer'>
+        <!-- <button id='button'>switch to salary</button> -->
+        <div class='dropdown'>
+            <div class='title pointerCursor'>Sort by <i class="fa fa-angle-right"></i></div>
+            <div class='menu pointerCursor hide'>
+                <div class='option' id='option1'>Sort by age</div>
+                <div class='option' id='option2'>Sort by salary</div>
+            </div>
+        </div>
+    </div>
+    <!-- import scripts -->
+    <script src='index.js'></script>
+</body>
+
+</html>
