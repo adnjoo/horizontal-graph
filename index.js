@@ -38,16 +38,6 @@ let data = [
 const container = document.getElementById("container");
 const button = document.getElementById("button");
 
-// button.addEventListener("click", () => {
-//   if (button.innerHTML.includes("salary")) {
-//     mySort('salary');
-//     button.innerHTML = "switch to age";
-//   } else {
-//     mySort('age');
-//     button.innerHTML = "switch to salary";
-//   }
-// });
-
 let mySort = (myVar) => {
   console.log(myVar)
   //clear container
