@@ -1,3 +1,3 @@
-# horizontal graph take home
+# horizontal graph
 
 open index.html
