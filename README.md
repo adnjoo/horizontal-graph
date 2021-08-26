@@ -4,8 +4,12 @@
 <img src='./scrn1.png' width='250'>
 </a>
 
+## tech
+
 vanilla-js, html, css
 
-drop down
+## features 
 
-bar-graph using html tables
+* drop down
+
+* bar-graph using html tables
