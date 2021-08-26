@@ -74,10 +74,10 @@ let mySort = (myVar) => {
     div.style.width = (data[i][myVar] / max) * 100 + "%";
     div.classList.add("age");
     //check if first or last
-    if (i == 0) {
+    if (i === 0) {
       age.classList.add("firsttd");
     }
-    if (i == data.length - 1) {
+    if (i === data.length - 1) {
       age.classList.add("lasttd");
     }
     age.appendChild(div);
